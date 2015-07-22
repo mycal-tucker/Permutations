@@ -12,6 +12,9 @@ public class Game {
         initializeAssigments();
     }
 
+    /**
+     * Assigns only self-loops to start with
+     */
     private void initializeAssigments(){
         for(int i = 0; i < NUM_PLAYERS; i ++){
             this.assignments[i] = i;
@@ -23,7 +26,7 @@ public class Game {
     }
 
     public int[] getAssignments(){
-        return this.assignments;
+        return this.assignments.clone();
     }
 
     /**
