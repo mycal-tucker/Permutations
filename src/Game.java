@@ -39,8 +39,6 @@ public class Game {
     public void scramble() {
         ArrayList<Integer> assignmentList = ListConverters.convertToArrayList(this.assignments);
         java.util.Collections.shuffle(assignmentList);
-
+        this.assignments = ListConverters.convertFromArrayList(assignmentList);
     }
-
-
 }

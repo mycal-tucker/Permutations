@@ -8,7 +8,8 @@ public class Analyzer {
         final int numPlayersPerGame = 5;
 
         Game g = new Game(numPlayersPerGame);
-        Game g2 = new GameWithoutSelf(numPlayersPerGame);
+
+        g.scramble();
     }
 
     /**
