@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by Mycal on 7/21/2015.
  * Game object allows self-loops
@@ -33,6 +37,10 @@ public class Game {
      * Allows self-loops
      */
     public void scramble() {
+        ArrayList<Integer> assignmentList = ListConverters.convertToArrayList(this.assignments);
+        java.util.Collections.shuffle(assignmentList);
 
     }
+
+
 }
