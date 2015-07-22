@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 /**
  * Created by Mycal on 7/22/2015.
+ * Test Game objects
  */
 public class GameTest {
 

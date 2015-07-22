@@ -1,6 +1,7 @@
 /**
  * Created by Mycal on 7/21/2015.
- * Maybe adding will get rid of warning
+ * Analyzer class may be used to analyze Game objects
+ * Analysis includes self loops, permutations, and number of loops
  */
 public class Analyzer {
     public static void main(String[] args) {
@@ -44,5 +45,10 @@ public class Analyzer {
             }
         }
         return false;
+    }
+
+    public static int numLoops(Game g) {
+        //TODO analyze how many loops are in g
+        return 5;
     }
 }

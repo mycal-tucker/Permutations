@@ -1,5 +1,6 @@
 /**
  * Created by Mycal on 7/21/2015.
+ * Game object allows self-loops
  */
 public class Game {
     private final int NUM_PLAYERS;
